@@ -6,7 +6,10 @@
   </div>
 
   <table class = 'table'>
-      {% for candidato in candidatos %}
+    <tr>
+      <th>Nome do Candidato</th>
+    </tr>
+      {% for candidato in Candidatos %}
         <tr><td>{{ candidato.nome }}</td></tr>
       {% endfor %}
   </table>
